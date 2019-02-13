@@ -1,11 +1,8 @@
 var shuffleSequence = seq("setcounter","intro",
-                          sepWith("sep", rshuffle(startsWith('ex'))
-                                       ), 'sr', "end_of_experiment");
+                          sepWith("sep", rshuffle(startsWith('ex')), 'sr', "end_of_experiment");
 var practiceItemTypes = ["practice"];
 
 var defaults = [
-    "Separator", {
-    },
     "AcceptabilityJudgment", {
         s: '',
 	    q: 'Which of these two sentences is more acceptable than the other?',
