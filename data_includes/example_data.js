@@ -1,4 +1,4 @@
-var shuffleSequence = seq("setcounter","intro",sepWith("sep", rshuffle(startsWith('ex')), 'sr', "end_of_experiment");
+var shuffleSequence = seq("setcounter","intro", 'sr', "end_of_experiment");
 var practiceItemTypes = ["practice"];
 
 var defaults = [
