@@ -27,6 +27,10 @@ var defaults = [
         hideProgressBar: true,
         continueOnReturn: true,
         saveReactionTime: true
+    },
+    "Message", {
+        hideProgressBar: true,
+        transfer: "keypress"
     }
 ];
 
@@ -34,7 +38,10 @@ var qcond = "Question";
 
 var manualSendResults = true;
 
+
+
 var items = [
+    ["instructions", "Message",{html: {include: "instructions.html"}}],
 
     ["practice_sep", "Separator", { transfer: 1000 }],    
     
