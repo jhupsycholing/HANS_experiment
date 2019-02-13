@@ -11,6 +11,7 @@ var defaults = [
     },
     "Question",{
         showNumbers:false,
+        randomOrder:false
 
     },
     "Separator",{
