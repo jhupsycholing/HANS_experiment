@@ -11446,7 +11446,5 @@ var items = [
 [['ex26186',56], qcond, {q:'In case the managers saw the doctors , the bankers resigned.\n\nThe bankers resigned.',as: ['definitely correct','maybe correct','definitely incorrect'], hasCorrect:true}],
 [['ex1135',56], qcond, {q:'The tourist called the banker next to the judges.\n\nThe banker called the judges.',as: ['definitely correct','maybe correct','definitely incorrect'], hasCorrect:false}],
 [['ex29158',56], qcond, {q:'Definitely the secretary supported the judges.\n\nThe secretary supported the judges.',as: ['definitely correct','maybe correct','definitely incorrect'], hasCorrect:true}],
-
     ["end_of_experiment", "Message", {transfer: null, html: '<p>End of experiment. Please submit this code to Mechanical Turk to confirm completion: ABGU783FGG. Feel free to close this window.</p>'}]
-                           
 ];
