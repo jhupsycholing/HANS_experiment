@@ -1,4 +1,4 @@
-var shuffleSequence = seq("setcounter","intro",'instructions',sepWith("sep", anyOf(startsWith('ex'))), 'sr', "end_of_experiment");
+var shuffleSequence = seq("setcounter","intro",'instructions',sepWith("sep", anyOf(startsWith('ex'), startsWith('c'))), 'sr', "end_of_experiment");
 var practiceItemTypes = ["practice"];
 
 var defaults = [
